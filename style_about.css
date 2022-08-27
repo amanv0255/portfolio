@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lora&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: white;
+  background-size: cover;
+}
+.header {
+  float: right;
+  position: absolute;
+  right: 10px;
+  top: 5px;
+}
+
+.navbar ul li {
+  list-style: none;
+  float: left;
+  margin-left: 10px;
+  margin: 15px;
+  color: whitesmoke;
+  align-items: flex-end;
+}
+
+.navbar ul li a {
+  color: rgb(6, 61, 117);
+    text-decoration: none;
+    font-size: 17px;
+    padding: 10px;
+    font-family: 'poppins';
+    font-weight: bold;
+    margin-left: 2vh;
+}
+
+a:hover {
+  color: red;
+  text-decoration: none;
+  font-size: 16px;
+  padding: 10px;
+}
+.container {
+  display: flex;
+  margin-top: 50px;
+  margin-left: 7vw;
+  font-family: poppins;
+  color: whitesmoke;
+  
+}
+
+.about {
+  width: 50vw;
+  height: 50vh;
+  color:rgb(25, 25, 25);
+  padding: 15px;
+
+  overflow-y: scroll;
+}
+.read {
+  position: sticky;
+}
+.ask {
+  font-size: 50px;
+  margin-top: 5vw;
+  margin-left: 5vw;
+  font-family: Lora;
+  color: rgb(48, 46, 46);
+}
+.my_image{
+  position: relative;
+  height: 40vh;
+  
+
+}
+.about p{
+  margin-bottom: 20px;
+}
+.btn{
+  padding: 10px;
+  background: transparent;
+  color: crimson;
+  border-radius: 10px;
+  border:2px solid crimson ;
+  margin-top: 10px;
+  font-weight: bold;
+  font-size: 15px;
+  cursor: pointer;
+  padding: 5px 20px;
+  font-family: poppins;
+}
+.btn:hover{
+  background: crimson;
+  color: white;
+
+
+}
+#download{
+  margin-left: 6vw;
+  
+}
